@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T07:02:59.942Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YHR5Xa4lxDbmyJV02CJe" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T07:58:43.893Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OeVmrSFvrcR0jf4eSfMp" version="20.0.3" type="github">
   <diagram id="cr96HQD-X67FwX9_faqK" name="Page-1">
     <mxGraphModel dx="1765" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
         <mxCell id="AsxfZAvoIZYpjWtTQjuQ-21" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-3" target="AsxfZAvoIZYpjWtTQjuQ-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-3" value="Go through each element in start_list.&lt;br&gt;&lt;br&gt;for i in start_list" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-3" value="Go through each element in start_list.&lt;br&gt;For loop:&lt;br&gt;for i in start_list" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="264.68" y="-570" width="220.63" height="210" as="geometry" />
         </mxCell>
         <mxCell id="AsxfZAvoIZYpjWtTQjuQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-8" target="AsxfZAvoIZYpjWtTQjuQ-10">
@@ -54,28 +54,68 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AsxfZAvoIZYpjWtTQjuQ-10" value="Set current value variable to equal i&lt;br&gt;current_value = i" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="315" y="-160" width="120" height="83.75" as="geometry" />
+          <mxGeometry x="312.5" y="-140" width="125" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-17" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-12" target="AsxfZAvoIZYpjWtTQjuQ-16">
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-24" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-12" target="AsxfZAvoIZYpjWtTQjuQ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-30" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-12" target="AsxfZAvoIZYpjWtTQjuQ-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AsxfZAvoIZYpjWtTQjuQ-12" value="If current_value == 1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="485.31" y="-182.35" width="150" height="128.44" as="geometry" />
+          <mxGeometry x="299.99" y="-30" width="150" height="128.44" as="geometry" />
         </mxCell>
         <mxCell id="AsxfZAvoIZYpjWtTQjuQ-16" value="Pass - Do nothing and start the loop again" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="505.15" y="-310" width="110.31" height="70" as="geometry" />
+          <mxGeometry x="485.31" y="-280" width="110.31" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AsxfZAvoIZYpjWtTQjuQ-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="-320" as="sourcePoint" />
             <mxPoint x="380" y="-600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="560" y="-600" />
+              <mxPoint x="540" y="-600" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="-360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AsxfZAvoIZYpjWtTQjuQ-19" value="Print the prime numbers.&lt;br&gt;print(prime_list)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-10" y="-508.75" width="210" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-22" target="AsxfZAvoIZYpjWtTQjuQ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-34" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="AsxfZAvoIZYpjWtTQjuQ-33">
+          <mxGeometry x="-0.6796" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-22" value="If current_value == 2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="302.48" y="170" width="145.01" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="-600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="-600" />
+              <mxPoint x="590" y="-600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-32" value="Add the current_value to prime_list" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="-150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-38" value="End program" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="18.75" y="-360" width="152.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-39" value="If current_value == 2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="302.48" y="600" width="145.01" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-41" value="Create a separate range between 2 and current_value" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="296.22" y="390" width="157.52" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
