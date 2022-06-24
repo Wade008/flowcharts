@@ -1,1 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T05:31:04.439Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Fflw_13f6zvmxbWFcRxI" version="20.0.3" type="github"><diagram id="cr96HQD-X67FwX9_faqK" name="Page-1">zVfLbts4FP0aAzOLCHpYDy8TJ00XKcaFB5jBbApaupbYUqJKUZbTr59LirKsh1NnmgCzsenL+yB5zzmkF946Pz4KUmafeAJs4drJceHdL1w39G38VIbn1uBEkd9aUkETY+sNW/oDjNEEpjVNoBo4Ss6ZpOXQGPOigFgObEQI3gzd9pwNq5YkhYlhGxM2tf5FE5m11sgNe/tHoGnWVXaCVTuTk87Z7KTKSMKbM5P3sPDWgnPZjvLjGpg6vO5c2rgPF2ZPCxNQyGsC+D+HT/KPsD58dB6LL83j09+b5sZtsxwIq82GF27AMN9dpkapGnWW3diw51gZNyafzWkF32veTdxUupe36OBE5bENM/Ndos81VJLyQvksW98PjDdxRoTsiuCG2jrD2mierAdt/aq3GW9okSq8ZKBXCQgZ1xbwvaYCEg0k/GC0Upsg+qxOWxVdmja4FDRX30Wd70CoNDuQDUAxG+OofIWq4Ng4bf9Gi5jVFT3A7wYKpxNzJRz1acucocHBIWE0LXDMYK9mDiAkRTzeGnNOk0QF3wnAEyY7nUjFlZwWUqPdv1v49ypTLXnbBe1QScG/wZozLtBS8EJl2VPGRiZGdsA2GKlb493HCDAQZ0t5GjmclqQ2c4+HG5sJJoVui4YYBsPxInadEyNQSoDnIMUzuhyHamBU5AZpZixNT0rXNrZsQEhjJEYI0lPynis4MHR5BXWCGeqMmgsJaon5yYXMeMoLwh56653gdZGAKmPjr97nifPStO0rSPlshFF1dIgWxQ0z6USnw1aFXz5qRD8RKcgXNujPt0QAIxKxPJTamdM1oRuFy76VXuhbnjNqp70cdanitYjBhI4adVrLf+/d8qLsXa1pywuatpUvidcIIC0lu4vFHbYWL4xS+eXHVN2t1r6TRqtSNb4o9yajErYliZVjg24zkDin+ML1Eh+iZDnRA5yJ3J0XBG/DWG9KWWdKWceboWz4XoyN/neMXb6KsS0pfsbYK5gd/iKzf6kL/vtxbyNaqeln/sxope9vjhzKNfj0Cge3/ku3++guP6t4HcENh7GbWAtYu4whzScaUIJakL5zh4GbfuIMh/rRIOIOUyqDufVty/V+LgjgoCSEc4KwCkKPBBdk5g1EwvVXVvde7nRitZq52T3bCtypUqzeSynCCUbXAohUICE9evj+BKEroDN8BpqZihygT6gfpEQXFlQ97azp47LVfhOg19ZFO10Gp3sInQFxCJe5fp4/QXcVZ7WE2x5VQ4wtZ3E7VrYRzvb7vRvHczhLgl3gv9HF44aeFfpDTEXLudeia/kz70X79ZjCn/3fuPaJ0v8Z9h7+BQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-24T05:33:41.770Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QyCy_dRXy8YXR27ieHte" version="20.0.3" type="github">
+  <diagram id="cr96HQD-X67FwX9_faqK" name="Page-1">
+    <mxGraphModel dx="750" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-2" value="&lt;h2&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Question 14: Flowchart&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;Showing the steps required to list all &lt;br&gt;the prime numbers between &lt;br&gt;1 and 100 (inclusive)" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;labelPosition=center;verticalLabelPosition=middle;textDirection=ltr;" parent="1" vertex="1">
+          <mxGeometry x="10" y="-1160" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" target="oZvMtO7uvH1Gn_wGLXPw-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375.31" y="-1040" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Start&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="310" y="-1110" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="oZvMtO7uvH1Gn_wGLXPw-5" target="oZvMtO7uvH1Gn_wGLXPw-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Print &quot;This program will list all prime numbers between 1 and 100&quot;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;rounded=1;arcSize=12;size=0.23;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="259.69" y="-990" width="230.62" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-7" value="Create a list of all numbers between 1 and 100 (inclusive) and save list to a variable.&lt;br&gt;&lt;br&gt;start_list = list 1 to 100" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="273.75" y="-840" width="202.5" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
