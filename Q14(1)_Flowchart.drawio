@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T05:33:41.770Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QyCy_dRXy8YXR27ieHte" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T07:02:59.942Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YHR5Xa4lxDbmyJV02CJe" version="20.0.3" type="github">
   <diagram id="cr96HQD-X67FwX9_faqK" name="Page-1">
-    <mxGraphModel dx="750" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1765" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,16 +13,69 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oZvMtO7uvH1Gn_wGLXPw-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Start&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="310" y="-1110" width="130" height="70" as="geometry" />
+          <mxGeometry x="300" y="-1120" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oZvMtO7uvH1Gn_wGLXPw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="oZvMtO7uvH1Gn_wGLXPw-5" target="oZvMtO7uvH1Gn_wGLXPw-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Print &quot;This program will list all prime numbers between 1 and 100&quot;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;rounded=1;arcSize=12;size=0.23;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="259.69" y="-990" width="230.62" height="90" as="geometry" />
+        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Print &quot;This program displays all prime numbers between 1 and 100&quot;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;rounded=1;arcSize=12;size=0.23;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="259.69" y="-1000" width="230.62" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="oZvMtO7uvH1Gn_wGLXPw-7" target="AsxfZAvoIZYpjWtTQjuQ-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oZvMtO7uvH1Gn_wGLXPw-7" value="Create a list of all numbers between 1 and 100 (inclusive) and save list to a variable.&lt;br&gt;&lt;br&gt;start_list = list 1 to 100" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="273.75" y="-840" width="202.5" height="100" as="geometry" />
+          <mxGeometry x="273.75" y="-870" width="202.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-1" target="AsxfZAvoIZYpjWtTQjuQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-1" value="Create an empty list that will ultimately hold all prime numbers&lt;br&gt;&lt;br&gt;prime_list = empty" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="273.75" y="-730" width="202.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-9" value="True i in start_list" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-3" target="AsxfZAvoIZYpjWtTQjuQ-8">
+          <mxGeometry x="0.1111" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-21" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-3" target="AsxfZAvoIZYpjWtTQjuQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-3" value="Go through each element in start_list.&lt;br&gt;&lt;br&gt;for i in start_list" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="264.68" y="-570" width="220.63" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-8" target="AsxfZAvoIZYpjWtTQjuQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-8" value="Set counter variable to zero&lt;br&gt;counter = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="315" y="-270" width="120" height="86.1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-10" target="AsxfZAvoIZYpjWtTQjuQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-10" value="Set current value variable to equal i&lt;br&gt;current_value = i" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="-160" width="120" height="83.75" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-17" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-12" target="AsxfZAvoIZYpjWtTQjuQ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-12" value="If current_value == 1" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="485.31" y="-182.35" width="150" height="128.44" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-16" value="Pass - Do nothing and start the loop again" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="505.15" y="-310" width="110.31" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AsxfZAvoIZYpjWtTQjuQ-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="-320" as="sourcePoint" />
+            <mxPoint x="380" y="-600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="-600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AsxfZAvoIZYpjWtTQjuQ-19" value="Print the prime numbers.&lt;br&gt;print(prime_list)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-508.75" width="210" height="87.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
