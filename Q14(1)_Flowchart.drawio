@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T12:00:09.514Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="62ZcviFhRLNfSaQcAD6c" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-25T01:40:13.641Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y8cf34QTPUtzOHNl_yAL" version="20.0.3" type="github">
   <diagram id="cr96HQD-X67FwX9_faqK" name="Page-1">
-    <mxGraphModel dx="1243" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="3061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oZvMtO7uvH1Gn_wGLXPw-2" value="&lt;h2&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Question 14: Flowchart&lt;/font&gt;&lt;/b&gt;&lt;/h2&gt;Showing the steps required to list all &lt;br&gt;the prime numbers between &lt;br&gt;1 and 100 (inclusive)" style="text;html=1;align=left;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;labelPosition=center;verticalLabelPosition=middle;textDirection=ltr;" parent="1" vertex="1">
-          <mxGeometry x="10" y="-1160" width="200" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="oZvMtO7uvH1Gn_wGLXPw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" target="oZvMtO7uvH1Gn_wGLXPw-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="375.31" y="-1040" as="sourcePoint" />
@@ -199,6 +196,9 @@
         </mxCell>
         <mxCell id="AsxfZAvoIZYpjWtTQjuQ-62" value="Add the current_value to prime_list" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="360" y="860" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VCz1gYaKr0MUIYYBnGbR-2" value="&lt;h2 style=&quot;&quot;&gt;&lt;b&gt;Question 14: Print prime numbers between 1 and 100&lt;/b&gt;&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Showing the steps required to list all&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;the prime numbers between&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;1 and 100 (inclusive)&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-1160" width="250" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
